@@ -24,6 +24,9 @@ _led driver_ (x1)
 
 http://www.digikey.com/product-detail/en/TB62752BFUG(O,EL)/TB62752BFUGCT-ND/1730152
 
+_test points_ (x8)
+http://www.digikey.com/product-detail/en/5016/5016KCT-ND/278888
+
 _passive elements_ (lots)
 
 anything goes.
