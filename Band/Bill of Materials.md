@@ -11,7 +11,7 @@ MCU|Nordic|nRF51822||||$2.00||$1.29 (unknown)|?|Symmetry
 GPS|CSR|GSD4e|||$?|$?|$?|$?|?|CSR
 NOR|Macronix|MX25U12835F|128mbit|||$1.25 (unknown)|||?|Trinity-Tech
 IMU|ST Micro|LSM330DLC|||$?|$2.26 (unknown)|$1.93 (reel, ?k)|?|?|ST Micro
-PWR|Torex|XCL209|1.8v||$2.15 @DK|$1.04 @DK|$0.78 (3k @Symmetry)|$0.49 (unknown), $0.45 (1m)|?|Torex
+PWR|Torex|XCL209|1.8v||$2.15 @DK|$1.04 @DK|$0.78 (3k @Symmetry)|$0.49 (unknown), $0.45 (1m)|?|Symmetry
 BLE ANT|Ethertronics|M310210||||$0.50||$0.35|4-5, 6-8|Ethertronics
 GPS ANT|Ethertronics|M830110||||$0.50||$0.35|4-5, 6-8|Ethertronics
 Balun|
