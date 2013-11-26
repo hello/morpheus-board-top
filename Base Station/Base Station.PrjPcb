@@ -28,7 +28,7 @@ PowerPortNamesTakePriority=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
-OutputPath=Project Outputs for Base Station
+OutputPath=
 LogFolderPath=
 
 [Preferences]
@@ -211,124 +211,92 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document12]
-DocumentPath=Base Station.Annotation
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Base Station\Base Station-RoundHoles.TX1
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=Project Outputs for Base Station\Base Station-RoundHoles.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument3]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for Base Station\Base Station-SlotHoles.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument4]
-DocumentPath=Project Outputs for Base Station\Base Station.DR1
-DItemRevisionGUID=
-
-[GeneratedDocument5]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for Base Station\Base Station.DRL
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for Base Station\Base Station.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for Base Station\Base Station.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for Base Station\Base Station.G1
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for Base Station\Base Station.G2
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for Base Station\Base Station.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for Base Station\Base Station.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for Base Station\Base Station.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for Base Station\Base Station.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for Base Station\Base Station.GKO
 DItemRevisionGUID=
 
-[GeneratedDocument15]
-DocumentPath=Project Outputs for Base Station\Base Station.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument16]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for Base Station\Base Station.GPB
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for Base Station\Base Station.GPT
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for Base Station\Base Station.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for Base Station\Base Station.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument20]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for Base Station\Base Station.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument21]
+[GeneratedDocument18]
 DocumentPath=Project Outputs for Base Station\Base Station.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument22]
+[GeneratedDocument19]
 DocumentPath=Project Outputs for Base Station\Base Station.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument23]
+[GeneratedDocument20]
 DocumentPath=Project Outputs for Base Station\Base Station.REP
 DItemRevisionGUID=
 
-[GeneratedDocument24]
+[GeneratedDocument21]
 DocumentPath=Project Outputs for Base Station\Base Station.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument25]
+[GeneratedDocument22]
 DocumentPath=Project Outputs for Base Station\Design Rule Check - Base Station.html
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for Base Station\Pick Place for Base Station.txt
 DItemRevisionGUID=
 
 [Configuration1]
@@ -376,7 +344,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for Base Station
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
