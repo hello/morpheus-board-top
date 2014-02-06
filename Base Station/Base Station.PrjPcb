@@ -558,7 +558,7 @@ OutputDefault3=0
 Name=Documentation Outputs
 Description=
 TargetPrinter=CanonMF4800
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=0
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=3|TrueTypeOptions=1|Collate=1|PrintWhat=0
 OutputType1=Assembler Source Print
 OutputName1=Assembler Source Prints
 OutputDocumentPath1=
