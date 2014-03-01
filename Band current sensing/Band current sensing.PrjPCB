@@ -53,7 +53,7 @@ GenerateClassCluster=0
 
 [Document2]
 DocumentPath=Current amplifiers 1.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -85,7 +85,7 @@ GenerateClassCluster=0
 
 [Document4]
 DocumentPath=Current amplifiers 2.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -101,7 +101,7 @@ GenerateClassCluster=0
 
 [Document5]
 DocumentPath=USB Hub.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -117,7 +117,7 @@ GenerateClassCluster=0
 
 [Document6]
 DocumentPath=FTDI.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -149,7 +149,7 @@ GenerateClassCluster=0
 
 [Document8]
 DocumentPath=ADC Reference voltage.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -181,7 +181,7 @@ GenerateClassCluster=0
 
 [Document10]
 DocumentPath=ADC1.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -197,7 +197,7 @@ GenerateClassCluster=0
 
 [Document11]
 DocumentPath=ADC2.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -213,7 +213,7 @@ GenerateClassCluster=0
 
 [Document12]
 DocumentPath=ADC3.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -229,7 +229,7 @@ GenerateClassCluster=0
 
 [Document13]
 DocumentPath=ADC4.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -245,7 +245,7 @@ GenerateClassCluster=0
 
 [Document14]
 DocumentPath=ADC5.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -277,7 +277,7 @@ GenerateClassCluster=0
 
 [Document16]
 DocumentPath=uC Power.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -293,7 +293,7 @@ GenerateClassCluster=0
 
 [Document17]
 DocumentPath=Current sensing system.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -309,7 +309,7 @@ GenerateClassCluster=0
 
 [Document18]
 DocumentPath=ADC_CLK.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -453,7 +453,7 @@ GenerateClassCluster=0
 
 [Document27]
 DocumentPath=Dev Board Power Control.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -469,7 +469,7 @@ GenerateClassCluster=0
 
 [Document28]
 DocumentPath=Wireless Power Dev.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -564,6 +564,22 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document34]
+DocumentPath=GPS Dev.SchDoc
+AnnotationEnabled=0
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=34
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document35]
 DocumentPath=Band Dev.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -579,9 +595,9 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document35]
+[Document36]
 DocumentPath=Development board.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -595,9 +611,9 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document36]
+[Document37]
 DocumentPath=uC IO 1.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -611,7 +627,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document37]
+[Document38]
 DocumentPath=uC IO 2.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -627,7 +643,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document38]
+[Document39]
 DocumentPath=uC IO 1.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -643,7 +659,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document39]
+[Document40]
 DocumentPath=Band Dev.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -659,8 +675,24 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document40]
+[Document41]
 DocumentPath=Band current sensing.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document42]
+DocumentPath=Band current sensing.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -1768,6 +1800,214 @@ MatchStrictly2=1
 PhysicalNamingFormat=$Component_$RoomName
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
+UniqueIDPath0=\HHPJYNHE\EBOAKVTQ
+DocumentName0=ADC1.SchDoc
+IsEnabled0=1
+SelectionScope0=All
+Order0=1
+IndexEnabled0=0
+IndexStartValue0=1
+Suffix0=
+UniqueIDPath1=\HHPJYNHE\LHUYUGRQ
+DocumentName1=ADC2.SchDoc
+IsEnabled1=1
+SelectionScope1=All
+Order1=2
+IndexEnabled1=0
+IndexStartValue1=1
+Suffix1=
+UniqueIDPath2=\HHPJYNHE\QULAUDRN
+DocumentName2=ADC3.SchDoc
+IsEnabled2=1
+SelectionScope2=All
+Order2=3
+IndexEnabled2=0
+IndexStartValue2=1
+Suffix2=
+UniqueIDPath3=\HHPJYNHE\EBGMOBSG
+DocumentName3=ADC4.SchDoc
+IsEnabled3=1
+SelectionScope3=All
+Order3=4
+IndexEnabled3=0
+IndexStartValue3=1
+Suffix3=
+UniqueIDPath4=\HHPJYNHE\ELFCEYLT
+DocumentName4=ADC5.SchDoc
+IsEnabled4=1
+SelectionScope4=All
+Order4=5
+IndexEnabled4=0
+IndexStartValue4=1
+Suffix4=
+UniqueIDPath5=\HHPJYNHE\SNTNANFD
+DocumentName5=ADC_CLK.SchDoc
+IsEnabled5=1
+SelectionScope5=All
+Order5=6
+IndexEnabled5=0
+IndexStartValue5=1
+Suffix5=
+UniqueIDPath6=\HHPJYNHE\DRLEUQIP
+DocumentName6=ADC Reference voltage.SchDoc
+IsEnabled6=1
+SelectionScope6=All
+Order6=7
+IndexEnabled6=0
+IndexStartValue6=1
+Suffix6=
+UniqueIDPath7=\FFNKPLQO
+DocumentName7=Band Dev.SchDoc
+IsEnabled7=1
+SelectionScope7=All
+Order7=8
+IndexEnabled7=0
+IndexStartValue7=1
+Suffix7=
+UniqueIDPath8=\FFNKPLQO\VKDIBVWE
+DocumentName8=Bluetooth MCU Dev.SchDoc
+IsEnabled8=1
+SelectionScope8=All
+Order8=9
+IndexEnabled8=0
+IndexStartValue8=1
+Suffix8=
+UniqueIDPath9=\HHPJYNHE\BFPWCEJT
+DocumentName9=Current amplifiers 1.SchDoc
+IsEnabled9=1
+SelectionScope9=All
+Order9=10
+IndexEnabled9=0
+IndexStartValue9=1
+Suffix9=
+UniqueIDPath10=\HHPJYNHE\GMGOOTTE
+DocumentName10=Current amplifiers 2.SchDoc
+IsEnabled10=1
+SelectionScope10=All
+Order10=11
+IndexEnabled10=0
+IndexStartValue10=1
+Suffix10=
+UniqueIDPath11=\HHPJYNHE
+DocumentName11=Current sensing system.SchDoc
+IsEnabled11=1
+SelectionScope11=All
+Order11=12
+IndexEnabled11=0
+IndexStartValue11=1
+Suffix11=
+UniqueIDPath12=\HUGXCQVB
+DocumentName12=Dev Board Power Control.SchDoc
+IsEnabled12=1
+SelectionScope12=All
+Order12=13
+IndexEnabled12=0
+IndexStartValue12=1
+Suffix12=
+UniqueIDPath13=
+DocumentName13=Development board.SchDoc
+IsEnabled13=1
+SelectionScope13=All
+Order13=14
+IndexEnabled13=0
+IndexStartValue13=1
+Suffix13=
+UniqueIDPath14=\HHPJYNHE\FTYATEXT\NALNHHJJ
+DocumentName14=FTDI.SchDoc
+IsEnabled14=1
+SelectionScope14=All
+Order14=15
+IndexEnabled14=0
+IndexStartValue14=1
+Suffix14=
+UniqueIDPath15=\FFNKPLQO\JDVAQTVK
+DocumentName15=GPS Dev.SchDoc
+IsEnabled15=1
+SelectionScope15=All
+Order15=16
+IndexEnabled15=0
+IndexStartValue15=1
+Suffix15=
+UniqueIDPath16=\FFNKPLQO\XPBOKHMM
+DocumentName16=HeartRate Dev.SchDoc
+IsEnabled16=1
+SelectionScope16=All
+Order16=17
+IndexEnabled16=0
+IndexStartValue16=1
+Suffix16=
+UniqueIDPath17=\FFNKPLQO\RCQDNTRS
+DocumentName17=Motion Dev.SchDoc
+IsEnabled17=1
+SelectionScope17=All
+Order17=18
+IndexEnabled17=0
+IndexStartValue17=1
+Suffix17=
+UniqueIDPath18=\FFNKPLQO\VQTJUJPJ
+DocumentName18=Power Dev.SchDoc
+IsEnabled18=1
+SelectionScope18=All
+Order18=19
+IndexEnabled18=0
+IndexStartValue18=1
+Suffix18=
+UniqueIDPath19=\FFNKPLQO\BACMBVEN
+DocumentName19=Storage Dev.SchDoc
+IsEnabled19=1
+SelectionScope19=All
+Order19=20
+IndexEnabled19=0
+IndexStartValue19=1
+Suffix19=
+UniqueIDPath20=\HHPJYNHE\NMSBPBLA
+DocumentName20=uC IO 1.SchDoc
+IsEnabled20=1
+SelectionScope20=All
+Order20=21
+IndexEnabled20=0
+IndexStartValue20=1
+Suffix20=
+UniqueIDPath21=\HHPJYNHE\FTYATEXT
+DocumentName21=uC IO 2.SchDoc
+IsEnabled21=1
+SelectionScope21=All
+Order21=22
+IndexEnabled21=0
+IndexStartValue21=1
+Suffix21=
+UniqueIDPath22=\HHPJYNHE\WBOSKPPT
+DocumentName22=uC Power.SchDoc
+IsEnabled22=1
+SelectionScope22=All
+Order22=23
+IndexEnabled22=0
+IndexStartValue22=1
+Suffix22=
+UniqueIDPath23=\HHPJYNHE\KOGJHRSF
+DocumentName23=USB Hub.SchDoc
+IsEnabled23=1
+SelectionScope23=All
+Order23=24
+IndexEnabled23=0
+IndexStartValue23=1
+Suffix23=
+UniqueIDPath24=\FFNKPLQO\XDBSFCUR
+DocumentName24=Vibe Dev.SchDoc
+IsEnabled24=1
+SelectionScope24=All
+Order24=25
+IndexEnabled24=0
+IndexStartValue24=1
+Suffix24=
+UniqueIDPath25=\FFNKPLQO\ERUETEYV
+DocumentName25=Wireless Power Dev.SchDoc
+IsEnabled25=1
+SelectionScope25=All
+Order25=26
+IndexEnabled25=0
+IndexStartValue25=1
+Suffix25=
 
 [PrjClassGen]
 CompClassManualEnabled=0
