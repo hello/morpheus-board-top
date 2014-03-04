@@ -53,7 +53,7 @@ GenerateClassCluster=0
 
 [Document2]
 DocumentPath=Current amplifiers 1.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -85,7 +85,7 @@ GenerateClassCluster=0
 
 [Document4]
 DocumentPath=Current amplifiers 2.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -101,7 +101,7 @@ GenerateClassCluster=0
 
 [Document5]
 DocumentPath=USB Hub.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -117,7 +117,7 @@ GenerateClassCluster=0
 
 [Document6]
 DocumentPath=FTDI.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -149,7 +149,7 @@ GenerateClassCluster=0
 
 [Document8]
 DocumentPath=ADC Reference voltage.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -165,7 +165,7 @@ GenerateClassCluster=0
 
 [Document9]
 DocumentPath=Bluetooth MCU Dev.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -181,7 +181,7 @@ GenerateClassCluster=0
 
 [Document10]
 DocumentPath=ADC1.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -197,7 +197,7 @@ GenerateClassCluster=0
 
 [Document11]
 DocumentPath=ADC2.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -213,7 +213,7 @@ GenerateClassCluster=0
 
 [Document12]
 DocumentPath=ADC3.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -229,7 +229,7 @@ GenerateClassCluster=0
 
 [Document13]
 DocumentPath=ADC4.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -245,7 +245,7 @@ GenerateClassCluster=0
 
 [Document14]
 DocumentPath=ADC5.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -277,7 +277,7 @@ GenerateClassCluster=0
 
 [Document16]
 DocumentPath=uC Power.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -293,7 +293,7 @@ GenerateClassCluster=0
 
 [Document17]
 DocumentPath=Current sensing system.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -309,7 +309,7 @@ GenerateClassCluster=0
 
 [Document18]
 DocumentPath=ADC_CLK.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -453,7 +453,7 @@ GenerateClassCluster=0
 
 [Document27]
 DocumentPath=Dev Board Power Control.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -485,7 +485,7 @@ GenerateClassCluster=0
 
 [Document29]
 DocumentPath=Storage Dev.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -501,7 +501,7 @@ GenerateClassCluster=0
 
 [Document30]
 DocumentPath=Motion Dev.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -517,7 +517,7 @@ GenerateClassCluster=0
 
 [Document31]
 DocumentPath=Power Dev.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -533,7 +533,7 @@ GenerateClassCluster=0
 
 [Document32]
 DocumentPath=HeartRate Dev.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -549,7 +549,7 @@ GenerateClassCluster=0
 
 [Document33]
 DocumentPath=Vibe Dev.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -565,7 +565,7 @@ GenerateClassCluster=0
 
 [Document34]
 DocumentPath=GPS Dev.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -581,7 +581,7 @@ GenerateClassCluster=0
 
 [Document35]
 DocumentPath=Band Dev.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -597,7 +597,7 @@ GenerateClassCluster=0
 
 [Document36]
 DocumentPath=Development board.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -613,7 +613,7 @@ GenerateClassCluster=0
 
 [Document37]
 DocumentPath=uC IO 1.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -692,7 +692,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document42]
-DocumentPath=Band current sensing.Annotation
+DocumentPath=Development Board.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
