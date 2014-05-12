@@ -151,6 +151,86 @@ GenerateClassCluster=0
 DocumentPath=Project Outputs for Morpheus_bottom\Design Rule Check - Morpheus_bottom.html
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Morpheus_bottom\Morpheus_bottom-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for Morpheus_bottom\Morpheus_bottom-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for Morpheus_bottom\Morpheus_bottom.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for Morpheus_bottom\Morpheus_bottom.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for Morpheus_bottom\Morpheus_bottom.G1
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for Morpheus_bottom\Morpheus_bottom.G2
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for Morpheus_bottom\Morpheus_bottom.G3
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for Morpheus_bottom\Morpheus_bottom.G4
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for Morpheus_bottom\Morpheus_bottom.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for Morpheus_bottom\Morpheus_bottom.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for Morpheus_bottom\Morpheus_bottom.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for Morpheus_bottom\Morpheus_bottom.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for Morpheus_bottom\Morpheus_bottom.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for Morpheus_bottom\Morpheus_bottom.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for Morpheus_bottom\Morpheus_bottom.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for Morpheus_bottom\Morpheus_bottom.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for Morpheus_bottom\Morpheus_bottom.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for Morpheus_bottom\Morpheus_bottom.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for Morpheus_bottom\Morpheus_bottom.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for Morpheus_bottom\Morpheus_bottom.REP
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
@@ -482,62 +562,66 @@ Name=Fabrication Outputs
 Description=
 TargetPrinter=CanonMF4800
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
-OutputType1=Board Stack Report
-OutputName1=Report Board Stack
+OutputType1=NC Drill
+OutputName1=NC Drill Files
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType2=CompositeDrill
-OutputName2=Composite Drill Drawing
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=True|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=2|NumberOfUnits=4|OptimizeChangeLocationCommands=False|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes
+OutputType2=Mask
+OutputName2=Solder/Paste Mask Prints
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType3=Drill
-OutputName3=Drill Drawing/Guides
+OutputType3=Plane
+OutputName3=Power-Plane Prints
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType4=Final
-OutputName4=Final Artwork Prints
+OutputType4=ODB
+OutputName4=ODB++ Files
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType5=Gerber
-OutputName5=Gerber Files
+OutputType5=Test Points
+OutputName5=Test Point Report
 OutputDocumentPath5=
-OutputVariantName5=[No Variations]
+OutputVariantName5=
 OutputDefault5=0
-OutputType6=Mask
-OutputName6=Solder/Paste Mask Prints
+OutputType6=CompositeDrill
+OutputName6=Composite Drill Drawing
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType7=NC Drill
-OutputName7=NC Drill Files
+OutputType7=Board Stack Report
+OutputName7=Report Board Stack
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-OutputType8=ODB
-OutputName8=ODB++ Files
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType8=Final
+OutputName8=Final Artwork Prints
 OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
-OutputType9=Plane
-OutputName9=Power-Plane Prints
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType9=Drill
+OutputName9=Drill Drawing/Guides
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType10=Test Points
-OutputName10=Test Point Report
+OutputType10=Gerber
+OutputName10=Gerber Files
 OutputDocumentPath10=
-OutputVariantName10=
+OutputVariantName10=[No Variations]
 OutputDefault10=0
+Configuration10_Name1=OutputConfigurationParameter1
+Configuration10_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16777220~1,16777221~1,16777218~1,16777219~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False
 
 [OutputGroup6]
 Name=Report Outputs
@@ -550,6 +634,16 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration1_Name1=Filter
+Configuration1_Item1=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration1_Name2=General
+Configuration1_Item2=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|IncludePCBData=True|IncludeVaultData=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=1342|FormHeight=1245|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration1_Name3=GroupOrder
+Configuration1_Item3=LibRef=True|Comment=True|Footprint=True
+Configuration1_Name4=SortOrder
+Configuration1_Item4=Designator=Up|Comment=Up|Footprint=Up
+Configuration1_Name5=VisibleOrder
+Configuration1_Item5=Comment=148|Description=148|Designator=148|Footprint=148|LibRef=170|Quantity=84
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
@@ -1087,20 +1181,20 @@ SelectedOnly=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=Hello.SchLib
-ComponentDesignItemID0=C_0.1u_10_50_X7R_0805
-ComponentSymbolReference0=C_0.1u_10_50_X7R_0805
+ComponentDesignItemID0=51281-011
+ComponentSymbolReference0=51281-011
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=Hello.SchLib
-ComponentDesignItemID1=C_10u_10_10_X5R_0805
-ComponentSymbolReference1=C_10u_10_10_X5R_0805
+ComponentDesignItemID1=C_0.1u_10_50_X7R_0805
+ComponentSymbolReference1=C_0.1u_10_50_X7R_0805
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=Hello.SchLib
-ComponentDesignItemID2=C_1u_10_6.3_X7R_0805
-ComponentSymbolReference2=C_1u_10_6.3_X7R_0805
+ComponentDesignItemID2=C_10u_10_10_X5R_0805
+ComponentSymbolReference2=C_10u_10_10_X5R_0805
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
@@ -1117,88 +1211,100 @@ ComponentUpdate4=1
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
 ComponentLibraryIdentifier5=Hello.SchLib
-ComponentDesignItemID5=FB_300_2_0.15_0603
-ComponentSymbolReference5=FB_300_2_0.15_0603
+ComponentDesignItemID5=Cuttable_trace_0.25mm
+ComponentSymbolReference5=Cuttable_trace_0.25mm
 ComponentUpdate5=1
 ComponentIsDeviceSheet5=0
 ComponentLibIdentifierKind6=Library Name And Type
 ComponentLibraryIdentifier6=Hello.SchLib
-ComponentDesignItemID6=HTU21D
-ComponentSymbolReference6=HTU21D
+ComponentDesignItemID6=FB_300_2_0.15_0603
+ComponentSymbolReference6=FB_300_2_0.15_0603
 ComponentUpdate6=1
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
 ComponentLibraryIdentifier7=Hello.SchLib
-ComponentDesignItemID7=INMP421
-ComponentSymbolReference7=INMP421
+ComponentDesignItemID7=FCI_USB_micro_B_10103592
+ComponentSymbolReference7=FCI_USB_micro_B_10103592
 ComponentUpdate7=1
 ComponentIsDeviceSheet7=0
 ComponentLibIdentifierKind8=Library Name And Type
 ComponentLibraryIdentifier8=Hello.SchLib
-ComponentDesignItemID8=INMP441
-ComponentSymbolReference8=INMP441
+ComponentDesignItemID8=Hole
+ComponentSymbolReference8=Hole
 ComponentUpdate8=1
 ComponentIsDeviceSheet8=0
 ComponentLibIdentifierKind9=Library Name And Type
 ComponentLibraryIdentifier9=Hello.SchLib
-ComponentDesignItemID9=L_10u_20_?_0.468_0.68_0.48
-ComponentSymbolReference9=L_10u_20_?_0.468_0.68_0.48
+ComponentDesignItemID9=HTU21D
+ComponentSymbolReference9=HTU21D
 ComponentUpdate9=1
 ComponentIsDeviceSheet9=0
 ComponentLibIdentifierKind10=Library Name And Type
 ComponentLibraryIdentifier10=Hello.SchLib
-ComponentDesignItemID10=LM3673TL-1.8
-ComponentSymbolReference10=LM3673TL-1.8
+ComponentDesignItemID10=INMP421
+ComponentSymbolReference10=INMP421
 ComponentUpdate10=1
 ComponentIsDeviceSheet10=0
 ComponentLibIdentifierKind11=Library Name And Type
 ComponentLibraryIdentifier11=Hello.SchLib
-ComponentDesignItemID11=LP5907MFX-3.3
-ComponentSymbolReference11=LP5907MFX-3.3
+ComponentDesignItemID11=INMP441
+ComponentSymbolReference11=INMP441
 ComponentUpdate11=1
 ComponentIsDeviceSheet11=0
 ComponentLibIdentifierKind12=Library Name And Type
 ComponentLibraryIdentifier12=Hello.SchLib
-ComponentDesignItemID12=R_100k_5_0.125_0805
-ComponentSymbolReference12=R_100k_5_0.125_0805
+ComponentDesignItemID12=L_2.2u_20_?_0.195_1.05_1.05
+ComponentSymbolReference12=L_2.2u_20_?_0.195_1.05_1.05
 ComponentUpdate12=1
 ComponentIsDeviceSheet12=0
 ComponentLibIdentifierKind13=Library Name And Type
 ComponentLibraryIdentifier13=Hello.SchLib
-ComponentDesignItemID13=TestPoint_hook_black
-ComponentSymbolReference13=TestPoint_hook_black
+ComponentDesignItemID13=LM3370SD-4221
+ComponentSymbolReference13=LM3370SD-4221
 ComponentUpdate13=1
 ComponentIsDeviceSheet13=0
 ComponentLibIdentifierKind14=Library Name And Type
 ComponentLibraryIdentifier14=Hello.SchLib
-ComponentDesignItemID14=TestPoint_turret_0.093
-ComponentSymbolReference14=TestPoint_turret_0.093
+ComponentDesignItemID14=R_100k_5_0.125_0805
+ComponentSymbolReference14=R_100k_5_0.125_0805
 ComponentUpdate14=1
 ComponentIsDeviceSheet14=0
 ComponentLibIdentifierKind15=Library Name And Type
 ComponentLibraryIdentifier15=Hello.SchLib
-ComponentDesignItemID15=Wuerth-744232090
-ComponentSymbolReference15=Wuerth-744232090
+ComponentDesignItemID15=TestPoint_hook_black
+ComponentSymbolReference15=TestPoint_hook_black
 ComponentUpdate15=1
 ComponentIsDeviceSheet15=0
 ComponentLibIdentifierKind16=Library Name And Type
 ComponentLibraryIdentifier16=Hello.SchLib
-ComponentDesignItemID16=Wuerth-824011
-ComponentSymbolReference16=Wuerth-824011
+ComponentDesignItemID16=TestPoint_turret_0.093
+ComponentSymbolReference16=TestPoint_turret_0.093
 ComponentUpdate16=1
 ComponentIsDeviceSheet16=0
 ComponentLibIdentifierKind17=Library Name And Type
-ComponentLibraryIdentifier17=Miscellaneous Connectors.IntLib
-ComponentDesignItemID17=MHDR1X3
-ComponentSymbolReference17=MHDR1X3
+ComponentLibraryIdentifier17=Hello.SchLib
+ComponentDesignItemID17=Wuerth-744232090
+ComponentSymbolReference17=Wuerth-744232090
 ComponentUpdate17=1
 ComponentIsDeviceSheet17=0
 ComponentLibIdentifierKind18=Library Name And Type
-ComponentLibraryIdentifier18=Miscellaneous Connectors.IntLib
-ComponentDesignItemID18=MHDR2X6
-ComponentSymbolReference18=MHDR2X6
+ComponentLibraryIdentifier18=Hello.SchLib
+ComponentDesignItemID18=Wuerth-824011
+ComponentSymbolReference18=Wuerth-824011
 ComponentUpdate18=1
 ComponentIsDeviceSheet18=0
+ComponentLibIdentifierKind19=Library Name And Type
+ComponentLibraryIdentifier19=Miscellaneous Connectors.IntLib
+ComponentDesignItemID19=Header 2
+ComponentSymbolReference19=Header 2
+ComponentUpdate19=1
+ComponentIsDeviceSheet19=0
+ComponentLibIdentifierKind20=Library Name And Type
+ComponentLibraryIdentifier20=Miscellaneous Connectors.IntLib
+ComponentDesignItemID20=MHDR1X3
+ComponentSymbolReference20=MHDR1X3
+ComponentUpdate20=1
+ComponentIsDeviceSheet20=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1261,55 +1367,76 @@ ParameterUpdate22=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=CAP0805
+ModelName0=51281-011
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=DSBGA-5
+ModelName1=CAP0805
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=HOLE_ROUND_1.6mm
+ModelName2=cuttable_trace_0.25
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=HOLE_ROUND_2.4mm
+ModelName3=FCI_10103592-0001LF
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=HTU2xx
+ModelName4=HDR1X2
 ModelUpdate4=1
 ModelType5=PCBLIB
-ModelName5=IND_1007
+ModelName5=HOLE_ROUND_0.6mm
 ModelUpdate5=1
 ModelType6=PCBLIB
-ModelName6=INMP421
+ModelName6=HOLE_ROUND_1.6mm
 ModelUpdate6=1
 ModelType7=PCBLIB
-ModelName7=INMP441
+ModelName7=HOLE_ROUND_1.7mm
 ModelUpdate7=1
 ModelType8=PCBLIB
-ModelName8=MHDR1X3
+ModelName8=HOLE_ROUND_2.4mm
 ModelUpdate8=1
 ModelType9=PCBLIB
-ModelName9=MHDR2X6
+ModelName9=HOLE_ROUND_3.1mm
 ModelUpdate9=1
 ModelType10=PCBLIB
-ModelName10=res0603
+ModelName10=HTU2xx
 ModelUpdate10=1
 ModelType11=PCBLIB
-ModelName11=RES0805
+ModelName11=INMP421
 ModelUpdate11=1
 ModelType12=PCBLIB
-ModelName12=SOT-23-5
+ModelName12=INMP421_broken
 ModelUpdate12=1
 ModelType13=PCBLIB
-ModelName13=Tant_EIA_3528
+ModelName13=INMP441
 ModelUpdate13=1
 ModelType14=PCBLIB
-ModelName14=Wuert-744232090
+ModelName14=MHDR1X3
 ModelUpdate14=1
+ModelType15=PCBLIB
+ModelName15=res0603
+ModelUpdate15=1
+ModelType16=PCBLIB
+ModelName16=RES0805
+ModelUpdate16=1
+ModelType17=PCBLIB
+ModelName17=SOT-23-5
+ModelUpdate17=1
+ModelType18=PCBLIB
+ModelName18=Tant_EIA_3528
+ModelUpdate18=1
+ModelType19=PCBLIB
+ModelName19=VLS201612Ex-xxxx
+ModelUpdate19=1
+ModelType20=PCBLIB
+ModelName20=wson-16
+ModelUpdate20=1
+ModelType21=PCBLIB
+ModelName21=Wuert-744232090
+ModelUpdate21=1
 ModelTypeGroup1=SI
 ModelTypeUpdate1=1
-ModelType15=SI
-ModelName15=Connector
-ModelUpdate15=1
+ModelType22=SI
+ModelName22=Connector
+ModelUpdate22=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
