@@ -132,22 +132,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document7]
-DocumentPath=Morpheus_middle_with_headers.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document8]
 DocumentPath=Morpheus_middle.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -163,7 +147,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document9]
+[Document8]
 DocumentPath=Flash.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -179,7 +163,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document10]
+[Document9]
 DocumentPath=M4F_MCU_Antennas.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -195,7 +179,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document11]
+[Document10]
 DocumentPath=Morpheus_middle.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -213,6 +197,26 @@ GenerateClassCluster=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Morpheus_middle\Design Rule Check - Morpheus_middle.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Morpheus_middle 6-4-2014 5-22-50 PM.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Morpheus_middle 6-4-2014 5-24-01 PM.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Morpheus_middle 6-4-2014 5-24-10 PM.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Morpheus_middle 6-4-2014 5-24-19 PM.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Morpheus_middle 6-4-2014 5-24-56 PM.WAS
 DItemRevisionGUID=
 
 [SearchPath1]
