@@ -11,7 +11,7 @@ OpenOutputs=1
 ArchiveProject=0
 TimestampOutput=0
 SeparateFolders=0
-TemplateLocationPath=
+TemplateLocationPath=C:\Users\Dan\Documents\GitHub\hello-hardware-components\Components\
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
 AllowPortNetNames=0
@@ -52,22 +52,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document2]
-DocumentPath=Bluetooth_MCU.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document3]
 DocumentPath=Proximity.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -83,87 +67,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document4]
-DocumentPath=..\Components\Hello.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document5]
-DocumentPath=..\Components\Hello.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document6]
-DocumentPath=..\Components\nrf51822_ceaa.IntLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document7]
-DocumentPath=..\Components\nRF51822-QFAA_ST_BAL-NRF01D3.IntLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document8]
-DocumentPath=Morpheus_top.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=4
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document9]
+[Document3]
 DocumentPath=Speaker.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -179,14 +83,14 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document10]
-DocumentPath=Morpheus_top.PcbDoc
+[Document4]
+DocumentPath=Morpheus_top.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -195,7 +99,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document11]
+[Document5]
 DocumentPath=Morpheus_top.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -211,176 +115,120 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
+[Document6]
+DocumentPath=..\..\hello-hardware-components\Components\Hello.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document7]
+DocumentPath=..\..\hello-hardware-components\Components\Hello.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document8]
+DocumentPath=..\..\hello-hardware-components\Components\nrf51822_ceaa.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document9]
+DocumentPath=..\..\hello-hardware-components\Components\nRF51822-QFAA_ST_BAL-NRF01D3.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document10]
+DocumentPath=Microphone.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=6
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document11]
+DocumentPath=Morpheus_top_meander_only.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document12]
+DocumentPath=Bluetooth_MCU_QFN.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\comp_+_bot\components
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\comp_+_top\components
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\eda\data
-DItemRevisionGUID=
-
-[GeneratedDocument4]
 DocumentPath=Project Outputs for Morpheus_top\Design Rule Check - Morpheus_top.html
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\1\features
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\2\features
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\3\features
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\bottom\features
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\bottomoverlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\bottompaste\features
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\bottomsolder\features
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\comp_+_bot\features
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\comp_+_top\features
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\drill\features
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\drilldrawing\features
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\drillguide\features
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\keepout\features
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\mechanical1\features
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\mechanical13\features
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\mechanical15\features
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\mid1\features
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\mid2\features
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\multilayer\features
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\rout\features
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\top\features
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\topoverlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\toppaste\features
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\topsolder\features
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for Morpheus_top\odb\symbols\rect98.4252x66.9291_175\features
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for Morpheus_top\odb\symbols\rect102.3622x70.8661_175\features
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for Morpheus_top\odb\symbols\rect107.874x76.3779_175\features
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for Morpheus_top\odb\matrix\matrix
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs for Morpheus_top\Morpheus_top.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs for Morpheus_top\Morpheus_top.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Project Outputs for Morpheus_top\Morpheus_top.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=Project Outputs for Morpheus_top\Morpheus_top.REP
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Project Outputs for Morpheus_top\Morpheus_top.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\netlists\cadnet\netlist
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=Project Outputs for Morpheus_top\Pick Place for Morpheus_top.txt
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\profile
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\stephdr
-DItemRevisionGUID=
-
-[GeneratedDocument42]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\drill\tools
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\rout\tools
 DItemRevisionGUID=
 
 [Configuration1]
@@ -1084,12 +932,12 @@ Type14=1
 Type15=1
 Type16=1
 Type17=1
-Type18=1
-Type19=1
+Type18=0
+Type19=0
 Type20=1
 Type21=1
 Type22=1
-Type23=1
+Type23=0
 Type24=1
 Type25=1
 Type26=1
