@@ -28,8 +28,9 @@ PowerPortNamesTakePriority=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
-OutputPath=Project Outputs for Morpheus_top
+OutputPath=
 LogFolderPath=
+ManagedProjectGUID=
 
 [Preferences]
 PrefsVaultGUID=
@@ -50,6 +51,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+DocumentUniqueId=
 
 [Document2]
 DocumentPath=Morpheus_top.SchDoc
@@ -66,6 +68,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+DocumentUniqueId=FBULBBCQ
 
 [Document3]
 DocumentPath=ALS.SchDoc
@@ -82,6 +85,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+DocumentUniqueId=YYIKLBTY
 
 [Document4]
 DocumentPath=Codec.SchDoc
@@ -98,6 +102,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+DocumentUniqueId=NHIMNUOC
 
 [Document5]
 DocumentPath=Speaker.SchDoc
@@ -114,6 +119,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+DocumentUniqueId=DHJXETBI
 
 [Document6]
 DocumentPath=Proximity.SchDoc
@@ -130,6 +136,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+DocumentUniqueId=OWXICTHY
 
 [Document7]
 DocumentPath=Microphone.SchDoc
@@ -146,6 +153,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+DocumentUniqueId=MESXOCNW
 
 [Document8]
 DocumentPath=Bluetooth_MCU.SchDoc
@@ -162,6 +170,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+DocumentUniqueId=FTFNMLOO
 
 [Document9]
 DocumentPath=Morpheus_top.OutJob
@@ -178,6 +187,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+DocumentUniqueId=
 
 [Document10]
 DocumentPath=Morpheus_top.Annotation
@@ -194,72 +204,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+DocumentUniqueId=
 
 [Document11]
-DocumentPath=..\..\hello-hardware-components\Components\Hello.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document12]
-DocumentPath=..\..\hello-hardware-components\Components\Hello.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document13]
-DocumentPath=..\..\hello-hardware-components\Components\nrf51822_ceaa.IntLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document14]
-DocumentPath=..\..\hello-hardware-components\Components\nRF51822-QFAA_ST_BAL-NRF01D3.IntLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document15]
 DocumentPath=Morpheus_top1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -274,8 +221,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+DocumentUniqueId=
 
-[Document16]
+[Document12]
 DocumentPath=Morpheus_top2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -290,6 +238,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+DocumentUniqueId=
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Morpheus_top\odb\steps\pcb\layers\comp_+_bot\components
@@ -547,13 +496,13 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for Morpheus_top
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Canon MF4800 Series UFRII LT
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
+TargetPrinter=CanonMF4800-1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=PCADNetlist
 OutputName1=PCAD Netlist
 OutputDocumentPath1=
@@ -588,8 +537,8 @@ OutputDefault6=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Canon MF4800 Series UFRII LT
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
+TargetPrinter=CanonMF4800-1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
 OutputDocumentPath1=
@@ -609,8 +558,8 @@ OutputDefault3=0
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=Canon MF4800 Series UFRII LT
-PrinterOptions=Record=PrinterOptions|Copies=2|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=0
+TargetPrinter=Virtual Printer
+PrinterOptions=Record=PrinterOptions|Copies=2|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
 OutputType1=Assembler Source Print
 OutputName1=Assembler Source Prints
 OutputDocumentPath1=
@@ -709,12 +658,24 @@ OutputDocumentPath16=
 OutputVariantName16=
 OutputDefault16=0
 PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType17=FSM Print
+OutputName17=FSM Prints
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType18=Software Platform Print
+OutputName18=Software Platform Prints
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
+PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=PDF Creator
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
+TargetPrinter=CanonMF4800-1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Test Points For Assembly
 OutputName1=Test Point Report
 OutputDocumentPath1=
@@ -819,8 +780,8 @@ Configuration3_Item41=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Ful
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Canon MF4800 Series UFRII LT
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
+TargetPrinter=CanonMF4800-1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=NC Drill
 OutputName1=NC Drill Files
 OutputDocumentPath1=
@@ -885,12 +846,22 @@ OutputVariantName10=[No Variations]
 OutputDefault10=0
 Configuration10_Name1=OutputConfigurationParameter1
 Configuration10_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressTrailingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NumberOfDecimals=2|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16777219~1,16777218~1,16842751~1,16973835~1,16973833~1,16973831~1,16973837~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False
+OutputType11=Gerber X2
+OutputName11=Gerber X2 Files
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=IPC2581
+OutputName12=IPC-2581 Files
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
 
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Canon MF4800 Series UFRII LT
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
+TargetPrinter=CanonMF4800-1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
 OutputDocumentPath1=
@@ -940,8 +911,8 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Canon MF4800 Series UFRII LT
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
+TargetPrinter=CanonMF4800-1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
 OutputDocumentPath1=
@@ -953,175 +924,175 @@ OutputName2=Text Print
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType3=Text Print
 OutputName3=Text Print
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType4=Text Print
 OutputName4=Text Print
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType5=Text Print
 OutputName5=Text Print
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType6=Text Print
 OutputName6=Text Print
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType7=Text Print
 OutputName7=Text Print
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType8=Text Print
 OutputName8=Text Print
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType9=Text Print
 OutputName9=Text Print
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType10=Text Print
 OutputName10=Text Print
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType11=Text Print
 OutputName11=Text Print
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType12=Text Print
 OutputName12=Text Print
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType13=Text Print
 OutputName13=Text Print
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType14=Text Print
 OutputName14=Text Print
 OutputDocumentPath14=
 OutputVariantName14=
 OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType15=Text Print
 OutputName15=Text Print
 OutputDocumentPath15=
 OutputVariantName15=
 OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType16=Text Print
 OutputName16=Text Print
 OutputDocumentPath16=
 OutputVariantName16=
 OutputDefault16=0
-PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType17=Text Print
 OutputName17=Text Print
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
-PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType18=Text Print
 OutputName18=Text Print
 OutputDocumentPath18=
 OutputVariantName18=
 OutputDefault18=0
-PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType19=Text Print
 OutputName19=Text Print
 OutputDocumentPath19=
 OutputVariantName19=
 OutputDefault19=0
-PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType20=Text Print
 OutputName20=Text Print
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType21=Text Print
 OutputName21=Text Print
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
-PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType22=Text Print
 OutputName22=Text Print
 OutputDocumentPath22=
 OutputVariantName22=
 OutputDefault22=0
-PageOptions22=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions22=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType23=Text Print
 OutputName23=Text Print
 OutputDocumentPath23=
 OutputVariantName23=
 OutputDefault23=0
-PageOptions23=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions23=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType24=Text Print
 OutputName24=Text Print
 OutputDocumentPath24=
 OutputVariantName24=
 OutputDefault24=0
-PageOptions24=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions24=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType25=Text Print
 OutputName25=Text Print
 OutputDocumentPath25=
 OutputVariantName25=
 OutputDefault25=0
-PageOptions25=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions25=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType26=Text Print
 OutputName26=Text Print
 OutputDocumentPath26=
 OutputVariantName26=
 OutputDefault26=0
-PageOptions26=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions26=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType27=Text Print
 OutputName27=Text Print
 OutputDocumentPath27=
 OutputVariantName27=
 OutputDefault27=0
-PageOptions27=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions27=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType28=Text Print
 OutputName28=Text Print
 OutputDocumentPath28=
 OutputVariantName28=
 OutputDefault28=0
-PageOptions28=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions28=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType29=Text Print
 OutputName29=Text Print
 OutputDocumentPath29=
 OutputVariantName29=
 OutputDefault29=0
-PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Canon MF4800 Series UFRII LT
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
+TargetPrinter=CanonMF4800-1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
 OutputDocumentPath1=
@@ -1150,12 +1121,17 @@ OutputName5=Environment configuration compliance check
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
+OutputType6=Component states check
+OutputName6=Vault's components states check
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
 
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Canon MF4800 Series UFRII LT
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
+TargetPrinter=CanonMF4800-1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
 OutputDocumentPath1=
@@ -1404,6 +1380,15 @@ Type98=0
 Type99=1
 Type100=2
 Type101=1
+Type102=2
+Type103=2
+Type104=1
+Type105=2
+Type106=2
+Type107=2
+Type108=2
+Type109=1
+Type110=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1444,290 +1429,309 @@ NetClassAutoNamedHarnessEnabled=0
 NetClassManualEnabled=1
 
 [LibraryUpdateOptions]
-SelectedOnly=1
+SelectedOnly=0
+UpdateVariants=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Hello.SchLib
-ComponentDesignItemID0=AB-RTCMC-32.768kHz-AIGZ-S7
-ComponentSymbolReference0=AB-RTCMC-32.768kHz-AIGZ-S7
+ComponentLibraryIdentifier0=Morpheus_pill.SCHLIB
+ComponentDesignItemID0=2450BM14E0003
+ComponentSymbolReference0=2450BM14E0003
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=Hello.SchLib
-ComponentDesignItemID1=Antenna_meander_2.4GHz
-ComponentSymbolReference1=Antenna_meander_2.4GHz
+ComponentLibraryIdentifier1=Morpheus_pill.SCHLIB
+ComponentDesignItemID1=AB-RTCMC-32.768kHz-AIGZ-S7
+ComponentSymbolReference1=AB-RTCMC-32.768kHz-AIGZ-S7
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=Hello.SchLib
-ComponentDesignItemID2=ASDMB-12.000MHZ-LC-T
-ComponentSymbolReference2=ASDMB-12.000MHZ-LC-T
+ComponentLibraryIdentifier2=Morpheus_pill.SCHLIB
+ComponentDesignItemID2=Antenna_meander_2.4GHz_top
+ComponentSymbolReference2=Antenna_meander_2.4GHz_top
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=Hello.SchLib
-ComponentDesignItemID3=BAL-ST-5pin_DC-Flip
-ComponentSymbolReference3=BAL-ST-5pin_DC-Flip
+ComponentLibraryIdentifier3=Morpheus_pill.SCHLIB
+ComponentDesignItemID3=ASDMB-12.000MHZ-LC-T
+ComponentSymbolReference3=ASDMB-12.000MHZ-LC-T
 ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=Hello.SchLib
+ComponentLibraryIdentifier4=Morpheus_pill.SCHLIB
 ComponentDesignItemID4=C_0.047u_10_50_X7R_0402
 ComponentSymbolReference4=C_0.047u_10_50_X7R_0402
 ComponentUpdate4=1
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=Hello.SchLib
+ComponentLibraryIdentifier5=Morpheus_pill.SCHLIB
 ComponentDesignItemID5=C_0.1u_10_50_X7R_0402
 ComponentSymbolReference5=C_0.1u_10_50_X7R_0402
 ComponentUpdate5=1
 ComponentIsDeviceSheet5=0
 ComponentLibIdentifierKind6=Library Name And Type
-ComponentLibraryIdentifier6=Hello.SchLib
+ComponentLibraryIdentifier6=Morpheus_pill.SCHLIB
 ComponentDesignItemID6=C_0.22u_10_10_X7R_0402
 ComponentSymbolReference6=C_0.22u_10_10_X7R_0402
 ComponentUpdate6=1
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=Hello.SchLib
+ComponentLibraryIdentifier7=Morpheus_pill.SCHLIB
 ComponentDesignItemID7=C_1000p_10_50_X7R_0402
 ComponentSymbolReference7=C_1000p_10_50_X7R_0402
 ComponentUpdate7=1
 ComponentIsDeviceSheet7=0
 ComponentLibIdentifierKind8=Library Name And Type
-ComponentLibraryIdentifier8=Hello.SchLib
+ComponentLibraryIdentifier8=Morpheus_pill.SCHLIB
 ComponentDesignItemID8=C_100u_20_6.3_X5R_1206
 ComponentSymbolReference8=C_100u_20_6.3_X5R_1206
 ComponentUpdate8=1
 ComponentIsDeviceSheet8=0
 ComponentLibIdentifierKind9=Library Name And Type
-ComponentLibraryIdentifier9=Hello.SchLib
+ComponentLibraryIdentifier9=Morpheus_pill.SCHLIB
 ComponentDesignItemID9=C_10u_10_6.3_X5R_0603
 ComponentSymbolReference9=C_10u_10_6.3_X5R_0603
 ComponentUpdate9=1
 ComponentIsDeviceSheet9=0
 ComponentLibIdentifierKind10=Library Name And Type
-ComponentLibraryIdentifier10=Hello.SchLib
+ComponentLibraryIdentifier10=Morpheus_pill.SCHLIB
 ComponentDesignItemID10=C_12p_5_50_C0G_0402
 ComponentSymbolReference10=C_12p_5_50_C0G_0402
 ComponentUpdate10=1
 ComponentIsDeviceSheet10=0
 ComponentLibIdentifierKind11=Library Name And Type
-ComponentLibraryIdentifier11=Hello.SchLib
+ComponentLibraryIdentifier11=Morpheus_pill.SCHLIB
 ComponentDesignItemID11=C_1p_10_50_C0G_0402
 ComponentSymbolReference11=C_1p_10_50_C0G_0402
 ComponentUpdate11=1
 ComponentIsDeviceSheet11=0
 ComponentLibIdentifierKind12=Library Name And Type
-ComponentLibraryIdentifier12=Hello.SchLib
+ComponentLibraryIdentifier12=Morpheus_pill.SCHLIB
 ComponentDesignItemID12=C_1u_10_16_X5R_0603
 ComponentSymbolReference12=C_1u_10_16_X5R_0603
 ComponentUpdate12=1
 ComponentIsDeviceSheet12=0
 ComponentLibIdentifierKind13=Library Name And Type
-ComponentLibraryIdentifier13=Hello.SchLib
-ComponentDesignItemID13=C_2.2p_0.05_50_C0G_0402
-ComponentSymbolReference13=C_2.2p_0.05_50_C0G_0402
+ComponentLibraryIdentifier13=Morpheus_pill.SCHLIB
+ComponentDesignItemID13=C_1u_10_6.3_X5R_0402
+ComponentSymbolReference13=C_1u_10_6.3_X5R_0402
 ComponentUpdate13=1
 ComponentIsDeviceSheet13=0
 ComponentLibIdentifierKind14=Library Name And Type
-ComponentLibraryIdentifier14=Hello.SchLib
-ComponentDesignItemID14=C_2200p_5_16_STD_0402
-ComponentSymbolReference14=C_2200p_5_16_STD_0402
+ComponentLibraryIdentifier14=Morpheus_pill.SCHLIB
+ComponentDesignItemID14=C_2.2p_0.05_50_C0G_0402
+ComponentSymbolReference14=C_2.2p_0.05_50_C0G_0402
 ComponentUpdate14=1
 ComponentIsDeviceSheet14=0
 ComponentLibIdentifierKind15=Library Name And Type
-ComponentLibraryIdentifier15=Hello.SchLib
-ComponentDesignItemID15=C_220p_5_50_C0G_0402
-ComponentSymbolReference15=C_220p_5_50_C0G_0402
+ComponentLibraryIdentifier15=Morpheus_pill.SCHLIB
+ComponentDesignItemID15=C_2200p_5_16_STD_0402
+ComponentSymbolReference15=C_2200p_5_16_STD_0402
 ComponentUpdate15=1
 ComponentIsDeviceSheet15=0
 ComponentLibIdentifierKind16=Library Name And Type
-ComponentLibraryIdentifier16=Hello.SchLib
-ComponentDesignItemID16=C_22u_10_20_JB_0603
-ComponentSymbolReference16=C_22u_10_20_JB_0603
+ComponentLibraryIdentifier16=Morpheus_pill.SCHLIB
+ComponentDesignItemID16=C_220p_5_50_C0G_0402
+ComponentSymbolReference16=C_220p_5_50_C0G_0402
 ComponentUpdate16=1
 ComponentIsDeviceSheet16=0
 ComponentLibIdentifierKind17=Library Name And Type
-ComponentLibraryIdentifier17=Hello.SchLib
-ComponentDesignItemID17=C_4.7u_10_10_JB_0402
-ComponentSymbolReference17=C_4.7u_10_10_JB_0402
+ComponentLibraryIdentifier17=Morpheus_pill.SCHLIB
+ComponentDesignItemID17=C_22u_10_20_X5R_0603_1
+ComponentSymbolReference17=C_22u_10_20_X5R_0603_1
 ComponentUpdate17=1
 ComponentIsDeviceSheet17=0
 ComponentLibIdentifierKind18=Library Name And Type
-ComponentLibraryIdentifier18=Hello.SchLib
-ComponentDesignItemID18=C_4.7u_20_6.3_X5R_0603
-ComponentSymbolReference18=C_4.7u_20_6.3_X5R_0603
+ComponentLibraryIdentifier18=Morpheus_pill.SCHLIB
+ComponentDesignItemID18=C_4.7u_10_10_JB_0402
+ComponentSymbolReference18=C_4.7u_10_10_JB_0402
 ComponentUpdate18=1
 ComponentIsDeviceSheet18=0
 ComponentLibIdentifierKind19=Library Name And Type
-ComponentLibraryIdentifier19=Hello.SchLib
-ComponentDesignItemID19=Espon_FC-135 32.7680KA-AC3
-ComponentSymbolReference19=Espon_FC-135 32.7680KA-AC3
+ComponentLibraryIdentifier19=Morpheus_pill.SCHLIB
+ComponentDesignItemID19=C_4.7u_20_6.3_X5R_0603
+ComponentSymbolReference19=C_4.7u_20_6.3_X5R_0603
 ComponentUpdate19=1
 ComponentIsDeviceSheet19=0
 ComponentLibIdentifierKind20=Library Name And Type
-ComponentLibraryIdentifier20=Hello.SchLib
-ComponentDesignItemID20=HDR2.00-2X3-SMD
-ComponentSymbolReference20=HDR2.00-2X3-SMD
+ComponentLibraryIdentifier20=Morpheus_pill.SCHLIB
+ComponentDesignItemID20=DMG6301UDW-7
+ComponentSymbolReference20=DMG6301UDW-7
 ComponentUpdate20=1
 ComponentIsDeviceSheet20=0
 ComponentLibIdentifierKind21=Library Name And Type
-ComponentLibraryIdentifier21=Hello.SchLib
-ComponentDesignItemID21=Hole
-ComponentSymbolReference21=Hole
+ComponentLibraryIdentifier21=Morpheus_pill.SCHLIB
+ComponentDesignItemID21=Espon_FC-135 32.7680KA-AC3
+ComponentSymbolReference21=Espon_FC-135 32.7680KA-AC3
 ComponentUpdate21=1
 ComponentIsDeviceSheet21=0
 ComponentLibIdentifierKind22=Library Name And Type
-ComponentLibraryIdentifier22=Hello.SchLib
-ComponentDesignItemID22=ILCX19-FB5F18-16.000MHz
-ComponentSymbolReference22=ILCX19-FB5F18-16.000MHz
+ComponentLibraryIdentifier22=Morpheus_pill.SCHLIB
+ComponentDesignItemID22=HDR2.00-2X3-SMD
+ComponentSymbolReference22=HDR2.00-2X3-SMD
 ComponentUpdate22=1
 ComponentIsDeviceSheet22=0
 ComponentLibIdentifierKind23=Library Name And Type
-ComponentLibraryIdentifier23=Hello.SchLib
-ComponentDesignItemID23=Knowles_2403-260-00001
-ComponentSymbolReference23=Knowles_2403-260-00001
+ComponentLibraryIdentifier23=Morpheus_pill.SCHLIB
+ComponentDesignItemID23=Hole
+ComponentSymbolReference23=Hole
 ComponentUpdate23=1
 ComponentIsDeviceSheet23=0
 ComponentLibIdentifierKind24=Library Name And Type
-ComponentLibraryIdentifier24=Hello.SchLib
-ComponentDesignItemID24=L_2.2n_0.1_?_0.150_0.9_?
-ComponentSymbolReference24=L_2.2n_0.1_?_0.150_0.9_?
+ComponentLibraryIdentifier24=Morpheus_pill.SCHLIB
+ComponentDesignItemID24=ILCX19-FB5F18-16.000MHz
+ComponentSymbolReference24=ILCX19-FB5F18-16.000MHz
 ComponentUpdate24=1
 ComponentIsDeviceSheet24=0
 ComponentLibIdentifierKind25=Library Name And Type
-ComponentLibraryIdentifier25=Hello.SchLib
-ComponentDesignItemID25=MHDR2X3
-ComponentSymbolReference25=MHDR2X3
+ComponentLibraryIdentifier25=Morpheus_pill.SCHLIB
+ComponentDesignItemID25=ISL29033
+ComponentSymbolReference25=ISL29033
 ComponentUpdate25=1
 ComponentIsDeviceSheet25=0
 ComponentLibIdentifierKind26=Library Name And Type
-ComponentLibraryIdentifier26=Hello.SchLib
-ComponentDesignItemID26=molex_53647-0374
-ComponentSymbolReference26=molex_53647-0374
+ComponentLibraryIdentifier26=Morpheus_pill.SCHLIB
+ComponentDesignItemID26=Knowles_2403-260-00001
+ComponentSymbolReference26=Knowles_2403-260-00001
 ComponentUpdate26=1
 ComponentIsDeviceSheet26=0
 ComponentLibIdentifierKind27=Library Name And Type
-ComponentLibraryIdentifier27=Hello.SchLib
-ComponentDesignItemID27=NAU8814
-ComponentSymbolReference27=NAU8814
+ComponentLibraryIdentifier27=Morpheus_pill.SCHLIB
+ComponentDesignItemID27=L_2.2n_0.1_?_0.150_0.9_?
+ComponentSymbolReference27=L_2.2n_0.1_?_0.150_0.9_?
 ComponentUpdate27=1
 ComponentIsDeviceSheet27=0
 ComponentLibIdentifierKind28=Library Name And Type
-ComponentLibraryIdentifier28=Hello.SchLib
-ComponentDesignItemID28=nRF51422_QF
-ComponentSymbolReference28=nRF51422_QF
+ComponentLibraryIdentifier28=Morpheus_pill.SCHLIB
+ComponentDesignItemID28=MHDR2X3
+ComponentSymbolReference28=MHDR2X3
 ComponentUpdate28=1
 ComponentIsDeviceSheet28=0
 ComponentLibIdentifierKind29=Library Name And Type
-ComponentLibraryIdentifier29=Hello.SchLib
-ComponentDesignItemID29=R_0_jumper_0.1_0402
-ComponentSymbolReference29=R_0_jumper_0.1_0402
+ComponentLibraryIdentifier29=Morpheus_pill.SCHLIB
+ComponentDesignItemID29=molex_53647-0374
+ComponentSymbolReference29=molex_53647-0374
 ComponentUpdate29=1
 ComponentIsDeviceSheet29=0
 ComponentLibIdentifierKind30=Library Name And Type
-ComponentLibraryIdentifier30=Hello.SchLib
-ComponentDesignItemID30=R_0_jumper_0.25_0603
-ComponentSymbolReference30=R_0_jumper_0.25_0603
+ComponentLibraryIdentifier30=Morpheus_pill.SCHLIB
+ComponentDesignItemID30=NAU8814YG
+ComponentSymbolReference30=NAU8814YG
 ComponentUpdate30=1
 ComponentIsDeviceSheet30=0
 ComponentLibIdentifierKind31=Library Name And Type
-ComponentLibraryIdentifier31=Hello.SchLib
-ComponentDesignItemID31=R_10_1_0.1_0402
-ComponentSymbolReference31=R_10_1_0.1_0402
+ComponentLibraryIdentifier31=Morpheus_pill.SCHLIB
+ComponentDesignItemID31=nRF51422_QF
+ComponentSymbolReference31=nRF51422_QF
 ComponentUpdate31=1
 ComponentIsDeviceSheet31=0
 ComponentLibIdentifierKind32=Library Name And Type
-ComponentLibraryIdentifier32=Hello.SchLib
-ComponentDesignItemID32=R_100_1_0.1_0402
-ComponentSymbolReference32=R_100_1_0.1_0402
+ComponentLibraryIdentifier32=Morpheus_pill.SCHLIB
+ComponentDesignItemID32=R_0_jumper_0.1_0402
+ComponentSymbolReference32=R_0_jumper_0.1_0402
 ComponentUpdate32=1
 ComponentIsDeviceSheet32=0
 ComponentLibIdentifierKind33=Library Name And Type
-ComponentLibraryIdentifier33=Hello.SchLib
-ComponentDesignItemID33=R_100k_5_0.1_0402
-ComponentSymbolReference33=R_100K_5_0.1_0402
+ComponentLibraryIdentifier33=Morpheus_pill.SCHLIB
+ComponentDesignItemID33=R_0_jumper_0.25_0603
+ComponentSymbolReference33=R_0_jumper_0.25_0603
 ComponentUpdate33=1
 ComponentIsDeviceSheet33=0
 ComponentLibIdentifierKind34=Library Name And Type
-ComponentLibraryIdentifier34=Hello.SchLib
-ComponentDesignItemID34=R_10k_5_0.1_0402
-ComponentSymbolReference34=R_10k_5_0.1_0402
+ComponentLibraryIdentifier34=Morpheus_pill.SCHLIB
+ComponentDesignItemID34=R_10_1_0.1_0402
+ComponentSymbolReference34=R_10_1_0.1_0402
 ComponentUpdate34=1
 ComponentIsDeviceSheet34=0
 ComponentLibIdentifierKind35=Library Name And Type
-ComponentLibraryIdentifier35=Hello.SchLib
-ComponentDesignItemID35=R_20k_1_0.1_0402
-ComponentSymbolReference35=R_20k_1_0.1_0402
+ComponentLibraryIdentifier35=Morpheus_pill.SCHLIB
+ComponentDesignItemID35=R_100_1_0.1_0402
+ComponentSymbolReference35=R_100_1_0.1_0402
 ComponentUpdate35=1
 ComponentIsDeviceSheet35=0
 ComponentLibIdentifierKind36=Library Name And Type
-ComponentLibraryIdentifier36=Hello.SchLib
-ComponentDesignItemID36=R_215K_1_0.1_0402
-ComponentSymbolReference36=R_215K_1_0.1_0402
+ComponentLibraryIdentifier36=Morpheus_pill.SCHLIB
+ComponentDesignItemID36=R_100k_5_0.1_0402
+ComponentSymbolReference36=R_100K_5_0.1_0402
 ComponentUpdate36=1
 ComponentIsDeviceSheet36=0
 ComponentLibIdentifierKind37=Library Name And Type
-ComponentLibraryIdentifier37=Hello.SchLib
-ComponentDesignItemID37=R_47K_5_0.1_0402
-ComponentSymbolReference37=R_47K_5_0.1_0402
+ComponentLibraryIdentifier37=Morpheus_pill.SCHLIB
+ComponentDesignItemID37=R_10k_5_0.1_0402
+ComponentSymbolReference37=R_10k_5_0.1_0402
 ComponentUpdate37=1
 ComponentIsDeviceSheet37=0
 ComponentLibIdentifierKind38=Library Name And Type
-ComponentLibraryIdentifier38=Hello.SchLib
-ComponentDesignItemID38=R_523k_1_0.1_0402
-ComponentSymbolReference38=R_523k_1_0.1_0402
+ComponentLibraryIdentifier38=Morpheus_pill.SCHLIB
+ComponentDesignItemID38=R_20k_1_0.1_0402
+ComponentSymbolReference38=R_20k_1_0.1_0402
 ComponentUpdate38=1
 ComponentIsDeviceSheet38=0
 ComponentLibIdentifierKind39=Library Name And Type
-ComponentLibraryIdentifier39=Hello.SchLib
-ComponentDesignItemID39=R_681_1_0.1_0402
-ComponentSymbolReference39=R_681_1_0.1_0402
+ComponentLibraryIdentifier39=Morpheus_pill.SCHLIB
+ComponentDesignItemID39=R_215K_1_0.1_0402
+ComponentSymbolReference39=R_215k_1_0.1_0402
 ComponentUpdate39=1
 ComponentIsDeviceSheet39=0
 ComponentLibIdentifierKind40=Library Name And Type
-ComponentLibraryIdentifier40=Hello.SchLib
-ComponentDesignItemID40=Si1912EDH
-ComponentSymbolReference40=Si1912EDH
+ComponentLibraryIdentifier40=Morpheus_pill.SCHLIB
+ComponentDesignItemID40=R_47K_5_0.1_0402
+ComponentSymbolReference40=R_47K_5_0.1_0402
 ComponentUpdate40=1
 ComponentIsDeviceSheet40=0
 ComponentLibIdentifierKind41=Library Name And Type
-ComponentLibraryIdentifier41=Hello.SchLib
-ComponentDesignItemID41=SPH0611LR5H
-ComponentSymbolReference41=SPH0611LR5H
+ComponentLibraryIdentifier41=Morpheus_pill.SCHLIB
+ComponentDesignItemID41=R_499k_1_0.1_0402
+ComponentSymbolReference41=R_499k_1_0.1_0402
 ComponentUpdate41=1
 ComponentIsDeviceSheet41=0
 ComponentLibIdentifierKind42=Library Name And Type
-ComponentLibraryIdentifier42=Hello.SchLib
-ComponentDesignItemID42=SPU0414HR5H
-ComponentSymbolReference42=SPU0414HR5H
+ComponentLibraryIdentifier42=Morpheus_pill.SCHLIB
+ComponentDesignItemID42=R_523k_1_0.1_0402
+ComponentSymbolReference42=R_523k_1_0.1_0402
 ComponentUpdate42=1
 ComponentIsDeviceSheet42=0
 ComponentLibIdentifierKind43=Library Name And Type
-ComponentLibraryIdentifier43=Hello.SchLib
-ComponentDesignItemID43=TP
-ComponentSymbolReference43=TP
+ComponentLibraryIdentifier43=Morpheus_pill.SCHLIB
+ComponentDesignItemID43=R_681_1_0.1_0402
+ComponentSymbolReference43=R_681_1_0.1_0402
 ComponentUpdate43=1
 ComponentIsDeviceSheet43=0
 ComponentLibIdentifierKind44=Library Name And Type
-ComponentLibraryIdentifier44=Hello.SchLib
-ComponentDesignItemID44=TPS79718DCK
-ComponentSymbolReference44=TPS79718DCK
+ComponentLibraryIdentifier44=Morpheus_pill.SCHLIB
+ComponentDesignItemID44=R_931k_1_0.1_0402
+ComponentSymbolReference44=R_931k_1_0.1_0402
 ComponentUpdate44=1
 ComponentIsDeviceSheet44=0
 ComponentLibIdentifierKind45=Library Name And Type
-ComponentLibraryIdentifier45=Hello.SchLib
-ComponentDesignItemID45=TSL45317CL
-ComponentSymbolReference45=TSL45317CL
+ComponentLibraryIdentifier45=Morpheus_pill.SCHLIB
+ComponentDesignItemID45=SPH0611LR5H
+ComponentSymbolReference45=SPH0611LR5H
 ComponentUpdate45=1
 ComponentIsDeviceSheet45=0
 ComponentLibIdentifierKind46=Library Name And Type
-ComponentLibraryIdentifier46=Hello.SchLib
-ComponentDesignItemID46=VCNL3020
-ComponentSymbolReference46=VCNL3020
+ComponentLibraryIdentifier46=Morpheus_pill.SCHLIB
+ComponentDesignItemID46=SPU0414HR5H-SB
+ComponentSymbolReference46=SPU0414HR5H-SB
 ComponentUpdate46=1
 ComponentIsDeviceSheet46=0
+ComponentLibIdentifierKind47=Library Name And Type
+ComponentLibraryIdentifier47=Morpheus_pill.SCHLIB
+ComponentDesignItemID47=TP
+ComponentSymbolReference47=TP
+ComponentUpdate47=1
+ComponentIsDeviceSheet47=0
+ComponentLibIdentifierKind48=Library Name And Type
+ComponentLibraryIdentifier48=Morpheus_pill.SCHLIB
+ComponentDesignItemID48=TPS79718DCK
+ComponentSymbolReference48=TPS79718DCK
+ComponentUpdate48=1
+ComponentIsDeviceSheet48=0
+ComponentLibIdentifierKind49=Library Name And Type
+ComponentLibraryIdentifier49=Morpheus_pill.SCHLIB
+ComponentDesignItemID49=VCNL3020-GS08
+ComponentSymbolReference49=VCNL3020-GS08
+ComponentUpdate49=1
+ComponentIsDeviceSheet49=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1747,152 +1751,178 @@ ParameterName1=Component Kind
 ParameterUpdate1=1
 ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=I_max
+ParameterName3=Hello_PN
 ParameterUpdate3=1
-ParameterName4=I_sat
+ParameterName4=I_max
 ParameterUpdate4=1
-ParameterName5=LatestRevisionDate
+ParameterName5=I_sat
 ParameterUpdate5=1
-ParameterName6=LatestRevisionNote
+ParameterName6=item_category
 ParameterUpdate6=1
-ParameterName7=Library Reference
+ParameterName7=LatestRevisionDate
 ParameterUpdate7=1
-ParameterName8=Model
+ParameterName8=LatestRevisionNote
 ParameterUpdate8=1
-ParameterName9=PN
+ParameterName9=Library Reference
 ParameterUpdate9=1
-ParameterName10=Power
+ParameterName10=Model
 ParameterUpdate10=1
-ParameterName11=Publisher
+ParameterName11=PN
 ParameterUpdate11=1
-ParameterName12=Q
+ParameterName12=Power
 ParameterUpdate12=1
-ParameterName13=RDC
+ParameterName13=Publisher
 ParameterUpdate13=1
-ParameterName14=Size
+ParameterName14=Q
 ParameterUpdate14=1
-ParameterName15=Temp
+ParameterName15=RDC
 ParameterUpdate15=1
-ParameterName16=Tolerance
+ParameterName16=Size
 ParameterUpdate16=1
-ParameterName17=Value
+ParameterName17=Temp
 ParameterUpdate17=1
-ParameterName18=Vendor
+ParameterName18=Tolerance
 ParameterUpdate18=1
-ParameterName19=Voltage
+ParameterName19=Value
 ParameterUpdate19=1
+ParameterName20=Vendor
+ParameterUpdate20=1
+ParameterName21=Voltage
+ParameterUpdate21=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=8-CLCC
+ModelName0=6-WDFN Exposed Pad
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=Antenna_meander_2.4GHz
+ModelName1=8-CLCC
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=ASDMB
+ModelName2=Antenna_meander_2.4GHz_TOP
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=BAL-ST-WLCSP
+ModelName3=Antenna_meander_2.4GHz_TOP fat trace
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=BGA4C170X246P3.00X3.75X90
+ModelName4=ASDMB
 ModelUpdate4=1
 ModelType5=PCBLIB
-ModelName5=CAP0402
+ModelName5=BGA4C170X246P3.00X3.75X90
 ModelUpdate5=1
 ModelType6=PCBLIB
-ModelName6=CAP0603
+ModelName6=CAP0402
 ModelUpdate6=1
 ModelType7=PCBLIB
-ModelName7=CAP1206
+ModelName7=CAP0402_SENSE_DVT
 ModelUpdate7=1
 ModelType8=PCBLIB
-ModelName8=Epson_FC-135
+ModelName8=CAP0603
 ModelUpdate8=1
 ModelType9=PCBLIB
-ModelName9=HDR2.00-2X3-SMD
+ModelName9=CAP0603_SENSE_DVT
 ModelUpdate9=1
 ModelType10=PCBLIB
-ModelName10=HOLE_ROUND_0.6mm
+ModelName10=CAP1206
 ModelUpdate10=1
 ModelType11=PCBLIB
-ModelName11=HOLE_ROUND_1.6mm
+ModelName11=CAP1206_SENSE_DVT
 ModelUpdate11=1
 ModelType12=PCBLIB
-ModelName12=HOLE_ROUND_1.7mm
+ModelName12=DFN50P160X80X70-6N
 ModelUpdate12=1
 ModelType13=PCBLIB
-ModelName13=HOLE_ROUND_1.8mm
+ModelName13=Epson_FC-135
 ModelUpdate13=1
 ModelType14=PCBLIB
-ModelName14=HOLE_ROUND_2.1mm
+ModelName14=HDR2.00-2X3-SMD
 ModelUpdate14=1
 ModelType15=PCBLIB
-ModelName15=HOLE_ROUND_2.4mm
+ModelName15=HOLE_ROUND_0.6mm
 ModelUpdate15=1
 ModelType16=PCBLIB
-ModelName16=HOLE_ROUND_3.1mm
+ModelName16=HOLE_ROUND_1.6mm
 ModelUpdate16=1
 ModelType17=PCBLIB
-ModelName17=ILCX19
+ModelName17=HOLE_ROUND_1.7mm
 ModelUpdate17=1
 ModelType18=PCBLIB
-ModelName18=IND_0402
+ModelName18=HOLE_ROUND_1.8mm
 ModelUpdate18=1
 ModelType19=PCBLIB
-ModelName19=Knowles_2403-260-00001
+ModelName19=HOLE_ROUND_2.1mm
 ModelUpdate19=1
 ModelType20=PCBLIB
-ModelName20=MHDR2X3
+ModelName20=HOLE_ROUND_2.4mm
 ModelUpdate20=1
 ModelType21=PCBLIB
-ModelName21=molex_53647-0374
+ModelName21=HOLE_ROUND_3.1mm
 ModelUpdate21=1
 ModelType22=PCBLIB
-ModelName22=QFN-24_0.5
+ModelName22=ILCX19
 ModelUpdate22=1
 ModelType23=PCBLIB
-ModelName23=RES0402
+ModelName23=IND_0402
 ModelUpdate23=1
 ModelType24=PCBLIB
-ModelName24=RES0603
+ModelName24=Knowles_2403-260-00001
 ModelUpdate24=1
 ModelType25=PCBLIB
-ModelName25=SC-70-6
+ModelName25=MHDR2X3
 ModelUpdate25=1
 ModelType26=PCBLIB
-ModelName26=SOT65P212X110-5N
+ModelName26=molex_53647-0374
 ModelUpdate26=1
 ModelType27=PCBLIB
-ModelName27=SPH0611
+ModelName27=QFN-24_0.5
 ModelUpdate27=1
 ModelType28=PCBLIB
-ModelName28=TP-0.3
+ModelName28=RES0402
 ModelUpdate28=1
 ModelType29=PCBLIB
-ModelName29=TP-0.6
+ModelName29=RES0402_SENSE_DVT
 ModelUpdate29=1
 ModelType30=PCBLIB
-ModelName30=TP-1.1
+ModelName30=RES0402-SENSE-DVT
 ModelUpdate30=1
 ModelType31=PCBLIB
-ModelName31=TSL4531
+ModelName31=RES0603
 ModelUpdate31=1
 ModelType32=PCBLIB
-ModelName32=vcnl3020
+ModelName32=RES0603_SENSE_DVT
 ModelUpdate32=1
 ModelType33=PCBLIB
-ModelName33=VQFN40P600X600X100-48
+ModelName33=SC-70-6
 ModelUpdate33=1
+ModelType34=PCBLIB
+ModelName34=SOT65P212X110-5N
+ModelUpdate34=1
+ModelType35=PCBLIB
+ModelName35=SPH0611
+ModelUpdate35=1
+ModelType36=PCBLIB
+ModelName36=TP-0.3
+ModelUpdate36=1
+ModelType37=PCBLIB
+ModelName37=TP-0.6
+ModelUpdate37=1
+ModelType38=PCBLIB
+ModelName38=TP-1.1
+ModelUpdate38=1
+ModelType39=PCBLIB
+ModelName39=vcnl3020
+ModelUpdate39=1
+ModelType40=PCBLIB
+ModelName40=VQFN40P600X600X100-48
+ModelUpdate40=1
 ModelTypeGroup1=SI
 ModelTypeUpdate1=1
-ModelType34=SI
-ModelName34=Connector
-ModelUpdate34=1
+ModelType41=SI
+ModelName41=Connector
+ModelUpdate41=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
+UpdateVariants=1
 PartTypes=0
 
 [Comparison Options]
@@ -1901,7 +1931,7 @@ ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=
 ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions5=Kind=Code Memory|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
